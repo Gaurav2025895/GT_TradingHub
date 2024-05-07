@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>GT Trading Hub - Makes your Earnings By Learning</title>
+</head>
+<body>
+    <nav class="navbar background h-nav-resp">
+        <ul class="nav-list v-class-resp">
+            <div class="logo"><img src="img/logo1.jpeg" alt="logo"></div>
+            <li><a href="#home"> Home</a></li>
+            <li><a href="#about"> About me</a></li>
+            <li><a href="#services"> Services</a></li>
+            <li><a href="#Contact"> Contact us</a></li>
+            <li><a href="#Enroll"> Enroll now</a></li>
+        </ul>
+        <div class="rightNav v-class-resp">
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm">Search</button>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+    <section class="background firstSection">
+    <div class="box-main">
+        <div class="firstHalf">
+            <p class="text-big">Welcome To GT Trading Hub</p>
+            <p class="text-small">In this world of 7 billion people we nee to educate all of them. this is the future of an educated world  The Future of Education is here</p>
+        <div class="buttons">
+            <button class="btn">Enroll now</button>
+            <button class="btn">Watch Video</button>
+        </div>
+        </div>
+  
+        <div class="secondHalf">
+        <img src="img/gv.jpg" alt="gv" >
+
+    </div>
+
+</section>
+
+<section class="section" id="about">
+    <div class="paras">
+    <p class="sectionTag text-big">Who I'm </p>
+    <p class="sectionTag text-small"> I'm Gaurav Vishwakarma , a College student and also a trader one of the top coaches in the areas of stock trading and personal transformation. Venturing into there journey at the young age of 19, I experienced the thick and thins of the stock market before achieving success as a trader.
+         Since 2021, in the pendemic time covid-19, I have learnt various theories, approaches and concepts only to realize that it need not be this complex.I have made it a personal mission to help a common man understand and trade the stock markets with the help of systems so simple that even a 10-year old child can understand them.
+         ​Their passion and natural leadership skills have helped propel them into a successful trainer & coach.  </p>
+    </div>
+    <div class="thumbnail">
+        <img src="img/gv5.jpeg" alt="Study image" class="imgFluid">
+    </div>
+</section>
+
+<section class="section section-left" id="services">
+    <div class="paras">
+    <p class="sectionTag text-big">Let's Grow With Us Through</p>
+    <p class="sectionTag text-small">1.Basics of Stock Market</p>
+    <p class="sectionTag text-small">2.Technical Analysis</p>
+    <p class="sectionTag text-small">3.Derivatives</p>
+    <p class="sectionTag text-small">4.Advance Stategies</p>
+    <p class="sectionTag text-small">5.Live Trading</p>
+    <p class="sectionTag text-small">6.Forex Trading</p>
+    <p class="sectionTag text-small">7.24x7 Help regarding Trading</p>
+    </div>
+    <div class="thumbnail">
+        <img src="img/gv2.jpg" alt="Study image" class="imgFluid">
+    </div>
+    
+</section>
+
+<section class="section" >
+    <div class="paras">
+    <p class="sectionTag text-big">We Simplify Trading</p>
+    <p class="sectionTag text-small">
+        At Stockmasters , our mission is to offer top-quality education and training in the realm of share trading. We are committed to providing comprehensive resources and courses tailored to the needs of both beginners seeking an entry into the captivating world of stock market trading and experienced traders aiming to refine their skills.
+        
+        Irrespective of your level of expertise, our institute offers a diverse range of courses designed to cater to your specific requirements. Whether you are taking your first steps in share trading or are looking to advance your existing knowledge, we have the ideal program for you.
+        
+        With a blend of theoretical foundations and real-world case studies, our courses offer actionable knowledge that you can immediately apply to your investment journey. We emphasize practical learning, ensuring you develop the confidence and expertise required to navigate the stock market with precision.</p>
+    </div>
+    <div class="thumbnail">
+        <img src="img/gv6.jpeg" alt="Study image" class="imgFluid">
+    </div>
+</section>
+
+<section class="section section-left" id="Contact">
+    <div class="paras">
+    <p class="sectionTag text-big">Contact us</p>
+    <p class="sectionTag text-small">Whatsapp - 7024748244 </p>
+    <p class="sectionTag text-small">Instagram - GTtradinghub</p>
+    <p class="sectionTag text-small">Email - gauravonline2002@gmail.com</p>
+    
+    </div>
+</section>
+    
+
+<section class="Enroll" id="Enroll">
+    <h1 class="text-center">Enroll now</h1>
+   <div class="form">
+     <input class="form-input"type="text" name="name" id="name" placeholder="Enter Your Name">
+     <input class="form-input"type="Phone" name="Phone" id="Phone" placeholder="Enter Your Phone">
+     <input class="form-input"type="Whatsapp Number" name="Whatsapp Number" id="Whatsapp_no" placeholder="Enter Your Whatsapp Number">
+     <input class="form-input"type="Email" name="name" id="email" placeholder="Enter Your Email">
+        <textarea class="form-input" name="text" id="disc" cols="30" rows="10" placeholder="Ellaborate your concern"></textarea>
+     <button class="btn btn-sm btn-dark">Submit</button>
+    </div>
+    </section>
+
+    <footer class="background">
+        <p class="text-footer">
+        Copyright &copy; 2025- www.GTtradinghub.com - All rights reserved
+        </p>  
+
+    </footer>
+    <script src="js/resp.js"></script>
+ <!-- <script src="js/api.js"></script> -->
+
+   <script>
+    function submitForm() {
+        const formData = {
+            name: document.getElementById('name').value,
+            phoneNumber: document.getElementById('Phone').value,
+            whatsappNumber: document.getElementById('Whatsapp_no').value,
+            email: document.getElementById('email').value,
+            diconcernDescriptionsc: document.getElementById('disc').value
+        };
+
+        fetch('https://gt-sf6c.onrender.com/contacts/createuser', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(formData)
+        })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.json();
+        })
+        .then(data => {
+            console.log('Form data submitted successfully:', data);
+            // Optionally, you can reset the form after successful submission
+            document.getElementById('myForm').reset();
+        })
+        .catch(error => {
+            console.error('There was a problem with your fetch operation:', error);
+        });
+    }
+
+    // Add event listener to the button
+    document.addEventListener('DOMContentLoaded', function() {
+        // Find the button element by its class name
+        const button = document.querySelector('.btn.btn-sm.btn-dark');
+
+        // Add event listener to the button
+        button.addEventListener('click', function() {
+            // Call the submitForm function when the button is clicked
+            submitForm();
+            
+        });
+    });
+    </script>
+
+</body>
+</html>
